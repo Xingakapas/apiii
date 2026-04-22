@@ -37,7 +37,7 @@ class _ProductPageState extends State<ProductPage> {
     if (response.statusCode == 200) {
       final data = json.decode(response.body);
       setState(() {
-        products = data["products"];
+        products = data["produk"];
       });
     }
   }
@@ -72,7 +72,7 @@ class _ProductPageState extends State<ProductPage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Image.network(
-                    p["thumbnail"],
+                    p["jempolkuku"],
                     height: 100,
                     width: double.infinity,
                     fit: BoxFit.cover,
