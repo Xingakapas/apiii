@@ -72,7 +72,7 @@ class _ProductPageState extends State<ProductPage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Image.network(
-                    p["jempolkuku"],
+                    p["thumbnail"],
                     height: 100,
                     width: double.infinity,
                     fit: BoxFit.cover,
