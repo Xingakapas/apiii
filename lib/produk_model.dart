@@ -19,3 +19,9 @@ Map<String, dynamic> toMap() {
   return {'id' : id, 'name': name, 'email': email, 'phone': phone };
 }
 }
+
+if (imounted) return;
+
+if(confirm == true) {
+  navigator.of(context).pop("delete");
+}
